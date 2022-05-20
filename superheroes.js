@@ -62,9 +62,6 @@ console.log(heroesArray);
 
 document.addEventListener("DOMContentLoaded", function (event) {
 
-    /* let b = JSON.stringify(heroesArray);
-    console.log(b); */
-
     let heroes = JSON.parse(heroesArray);
     console.log(heroes);
 
