@@ -155,7 +155,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 function getBatmanRating() {
     const batman = document.querySelector('.batman').value;
-    console.log(batman);
 
     if (localStorage.getItem('batman') == null) {
         localStorage.setItem('batman', batman);
@@ -164,7 +163,6 @@ function getBatmanRating() {
 
 function getSupermanRating() {
     const superman = document.querySelector('.superman').value;
-    console.log(superman);
 
     if (localStorage.getItem('superman') == null) {
         localStorage.setItem('superman', superman);
@@ -173,7 +171,6 @@ function getSupermanRating() {
 
 function getIronmanRating() {
     const ironman = document.querySelector('.ironman').value;
-    console.log(ironman);
 
     if (localStorage.getItem('ironman') == null) {
         localStorage.setItem('ironman', ironman);
@@ -182,7 +179,6 @@ function getIronmanRating() {
 
 function getSpidermanRating() {
     const spiderman = document.querySelector('.spiderman').value;
-    console.log(spiderman);
 
     if (localStorage.getItem('spiderman') == null) {
         localStorage.setItem('spiderman', spiderman);
@@ -191,7 +187,6 @@ function getSpidermanRating() {
 
 function getCaptainRating() {
     const captain = document.querySelector('.captain').value;
-    console.log(captain);
 
     if (localStorage.getItem('captain') == null) {
         localStorage.setItem('captain', captain);
@@ -200,7 +195,6 @@ function getCaptainRating() {
 
 function getThorRating() {
     const thor = document.querySelector('.thor').value;
-    console.log(thor);
 
     if (localStorage.getItem('thor') == null) {
         localStorage.setItem('thor', thor);
@@ -209,7 +203,6 @@ function getThorRating() {
 
 function getHulkRating() {
     const hulk = document.querySelector('.hulk').value;
-    console.log(hulk);
 
     if (localStorage.getItem('hulk') == null) {
         localStorage.setItem('hulk', hulk);
@@ -218,7 +211,6 @@ function getHulkRating() {
 
 function getWonderwomanRating() {
     const wonderwoman = document.querySelector('.wonderwoman').value;
-    console.log(wonderwoman);
 
     if (localStorage.getItem('wonderwoman') == null) {
         localStorage.setItem('wonderwoman', wonderwoman);
@@ -227,7 +219,6 @@ function getWonderwomanRating() {
 
 function getBlackwidowRating() {
     const blackwidow = document.querySelector('.blackwidow').value;
-    console.log(blackwidow);
 
     if (localStorage.getItem('blackwidow') == null) {
         localStorage.setItem('blackwidow', blackwidow);
